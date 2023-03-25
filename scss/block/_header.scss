@@ -1,0 +1,51 @@
+.header{
+  .df-balkim{
+    .head{
+        padding: 20px 20px 20px 20px;
+        display: flex;
+        justify-content: space-between;
+         h1{
+        font-size: 56px;
+        color: #fff;
+        text-shadow:
+          0 0 7px #fff,
+          0 0 10px #fff,
+          0 0 21px #fff,
+          0 0 42px #0fa,
+          0 0 82px #0fa,
+          0 0 92px #0fa,
+          0 0 102px #0fa,
+          0 0 151px #0fa;
+    }
+    .search-movie{
+      margin-top: 16px;
+      margin-right: 16px;
+      display: flex;
+      align-items: center;
+      justify-content: end; 
+        width: 130px; 
+        height: 30px;
+        border: 0;
+        border-radius: 20px 20px 20px 20px;
+        padding: 0px 20px 0px 10px;
+    }
+    }
+    input{
+      width: 130px; 
+      height: 30px;
+      border: 0;
+      border-radius: 20px 20px 20px 20px;
+      padding: 0px 20px 0px 10px;
+    }
+    button{
+      width: 130px; 
+      height: 30px;
+      border: 0;
+      border-radius: 20px 20px 20px 20px;
+      padding: 0px 20px 0px 10px;
+    }
+    button:hover{
+      background-color: gray;
+    }
+}
+}

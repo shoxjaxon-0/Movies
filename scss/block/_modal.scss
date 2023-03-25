@@ -1,0 +1,40 @@
+.modal{
+    position: absolute;
+    inset: 0;
+    z-index: 999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(53, 80, 103, 0.3);
+    .modal-block{
+        width: 450px;
+        height: 450px;
+        background-color: #031f26;
+        padding: 20px;
+        input{
+            width: 130px; 
+            height: 30px;
+            border: 0;
+            border-radius: 20px 20px 20px 20px;
+            padding: 0px 20px 0px 10px;
+          }
+          button{
+            width: 130px; 
+            height: 30px;
+            border: 0;
+            border-radius: 20px 20px 20px 20px;
+            padding: 0px 20px 0px 10px;
+          }
+          button:hover{
+            background-color: gray;
+         }
+         .exit-b{
+            width: 20px;
+            height: 20px;
+            background-color: red;
+         }
+         .exit-b:hover{
+           background-color: darkred;
+         }
+    }
+}

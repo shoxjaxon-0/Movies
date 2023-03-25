@@ -1,0 +1,175 @@
+.box-card {
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.box-card .card {
+  margin: 30px 30px 30px 30px;
+  box-sizing: border-box;
+  padding: 20px 10px 10px 50px;
+  width: 400px;
+  height: 550px;
+  background-color: rgba(44, 41, 41, 0.662745098);
+}
+.box-card .card .poster img {
+  width: 300px;
+  height: 400px;
+}
+.box-card .card .reiting {
+  color: white;
+  display: flex;
+}
+.box-card .card .name-movies {
+  display: flex;
+  width: 300px;
+}
+.box-card .card .name-movies sup {
+  margin: 5px;
+  color: white;
+}
+.box-card .card .name-movies h2 {
+  margin: 5px;
+  color: white;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #0b141b;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+h1 {
+  margin-left: 60px;
+  width: 100px;
+  height: 100px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  font-size: 56px;
+  color: #fff;
+  text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #fff, 0 0 42px #0fa, 0 0 82px #0fa, 0 0 92px #0fa, 0 0 102px #0fa, 0 0 151px #0fa;
+}
+
+input {
+  width: 130px;
+  height: 30px;
+  border: 0;
+  border-radius: 20px 20px 20px 20px;
+  padding: 0px 20px 0px 10px;
+}
+
+button {
+  width: 130px;
+  height: 30px;
+  border: 0;
+  border-radius: 20px 20px 20px 20px;
+  padding: 0px 20px 0px 10px;
+}
+
+button:hover {
+  background-color: gray;
+}
+
+.header .df-balkim .head {
+  padding: 20px 20px 20px 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.header .df-balkim .head h1 {
+  font-size: 56px;
+  color: #fff;
+  text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #fff, 0 0 42px #0fa, 0 0 82px #0fa, 0 0 92px #0fa, 0 0 102px #0fa, 0 0 151px #0fa;
+}
+.header .df-balkim .head .search-movie {
+  margin-top: 16px;
+  margin-right: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  width: 130px;
+  height: 30px;
+  border: 0;
+  border-radius: 20px 20px 20px 20px;
+  padding: 0px 20px 0px 10px;
+}
+.header .df-balkim input {
+  width: 130px;
+  height: 30px;
+  border: 0;
+  border-radius: 20px 20px 20px 20px;
+  padding: 0px 20px 0px 10px;
+}
+.header .df-balkim button {
+  width: 130px;
+  height: 30px;
+  border: 0;
+  border-radius: 20px 20px 20px 20px;
+  padding: 0px 20px 0px 10px;
+}
+.header .df-balkim button:hover {
+  background-color: gray;
+}
+
+.modal {
+  position: absolute;
+  inset: 0;
+  z-index: 999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(53, 80, 103, 0.3);
+}
+.modal .modal-block {
+  width: 450px;
+  height: 450px;
+  background-color: #031f26;
+  padding: 20px;
+}
+.modal .modal-block input {
+  width: 130px;
+  height: 30px;
+  border: 0;
+  border-radius: 20px 20px 20px 20px;
+  padding: 0px 20px 0px 10px;
+}
+.modal .modal-block button {
+  width: 130px;
+  height: 30px;
+  border: 0;
+  border-radius: 20px 20px 20px 20px;
+  padding: 0px 20px 0px 10px;
+}
+.modal .modal-block button:hover {
+  background-color: gray;
+}
+.modal .modal-block .exit-b {
+  width: 20px;
+  height: 20px;
+  background-color: red;
+}
+.modal .modal-block .exit-b:hover {
+  background-color: darkred;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: 1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  -webkit-clip-path: inset(100%);
+          clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}/*# sourceMappingURL=main.css.map */
