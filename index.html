@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>movies</title> 
-    <link rel="stylesheet" href="./css/main.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>movie</title>
+  <link rel="stylesheet" href="./css/main.css">
 </head>
 <div class="container">
       <div>
@@ -17,10 +17,15 @@
          <input type="text" name="name">
             <button type="submit">search</button>
            </form>
-           <ul data-movie-list>  
-          </ul>
-        </template>
-        </div>
+          <div  class="add" data-add-box-movie>
+            <template  data-template-card>
+                <div data-cards class="card">
+                  <img class="movie-img" data-poster-movie src="" alt="">
+                  <h3 style="color: aliceblue;" class="movie-title" data-title-movie></h3>
+                  <p data-movie-id></p>
+                </div>
+            </template>
+          </div>
      </div>
     <script src="./js/api.js"></script>
     <script src="./js/7-home movies.js"></script>
